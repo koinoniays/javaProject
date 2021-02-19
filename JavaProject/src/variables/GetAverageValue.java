@@ -11,6 +11,11 @@ public class GetAverageValue {
 		double i = z / 2;
 		System.out.println("두 수의 평균은 : " + i + " 입니다.");
 		
+		if (i == 17.5) {
+			System.out.println("두 수의 평균은 : 17.5 입니다." );
+		} else {
+			System.out.println("두 수의 평균은 : 17.5 가 아닙니다");
+		}
 
 	}
 
