@@ -17,8 +17,6 @@ public class LibrarayApplication {
 			int menu = scn.nextInt();
 			if(menu == 1) {
 				for(int i =0; i<bookList.length; i++) {
-					System.out.print("1)도서정보등록>");
-						
 				}
 			} else if(menu == 2) {
 				
