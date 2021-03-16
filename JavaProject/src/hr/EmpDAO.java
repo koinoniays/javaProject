@@ -14,7 +14,7 @@ import java.util.Set;
 public class EmpDAO {
 	Connection conn = null;
 	
-	EmpDAO(){	
+	public EmpDAO(){	
 		String url = "jdbc:oracle:thin:@localhost:1521:xe";
 		String user = "hr";
 		String passwd = "hr";
